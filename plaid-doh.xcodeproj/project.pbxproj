@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3418CCB24AD81E000B6FE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CCA24AD81E000B6FE2F /* AppDelegate.swift */; };
+		A3418CCD24AD81E000B6FE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CCC24AD81E000B6FE2F /* SceneDelegate.swift */; };
+		A3418CCF24AD81E000B6FE2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CCE24AD81E000B6FE2F /* ContentView.swift */; };
+		A3418CD124AD81E700B6FE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3418CD024AD81E700B6FE2F /* Assets.xcassets */; };
+		A3418CD424AD81E700B6FE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3418CD324AD81E700B6FE2F /* Preview Assets.xcassets */; };
+		A3418CD724AD81E700B6FE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3418CD524AD81E700B6FE2F /* LaunchScreen.storyboard */; };
+		A3418CE224AD81E700B6FE2F /* plaid_dohTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CE124AD81E700B6FE2F /* plaid_dohTests.swift */; };
+		A3418CED24AD81E700B6FE2F /* plaid_dohUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CEC24AD81E700B6FE2F /* plaid_dohUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3418CDE24AD81E700B6FE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3418CBF24AD81E000B6FE2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3418CC624AD81E000B6FE2F;
+			remoteInfo = "plaid-doh";
+		};
+		A3418CE924AD81E700B6FE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3418CBF24AD81E000B6FE2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3418CC624AD81E000B6FE2F;
+			remoteInfo = "plaid-doh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3418CC724AD81E000B6FE2F /* plaid-doh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plaid-doh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3418CCA24AD81E000B6FE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3418CCC24AD81E000B6FE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3418CCE24AD81E000B6FE2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3418CD024AD81E700B6FE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3418CD324AD81E700B6FE2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3418CD624AD81E700B6FE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3418CD824AD81E700B6FE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3418CDD24AD81E700B6FE2F /* plaid-dohTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "plaid-dohTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3418CE124AD81E700B6FE2F /* plaid_dohTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plaid_dohTests.swift; sourceTree = "<group>"; };
+		A3418CE324AD81E700B6FE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3418CE824AD81E700B6FE2F /* plaid-dohUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "plaid-dohUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3418CEC24AD81E700B6FE2F /* plaid_dohUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plaid_dohUITests.swift; sourceTree = "<group>"; };
+		A3418CEE24AD81E700B6FE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3418CC424AD81E000B6FE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3418CDA24AD81E700B6FE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3418CE524AD81E700B6FE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3418CBE24AD81E000B6FE2F = {
+			isa = PBXGroup;
+			children = (
+				A3418CC924AD81E000B6FE2F /* plaid-doh */,
+				A3418CE024AD81E700B6FE2F /* plaid-dohTests */,
+				A3418CEB24AD81E700B6FE2F /* plaid-dohUITests */,
+				A3418CC824AD81E000B6FE2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3418CC824AD81E000B6FE2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3418CC724AD81E000B6FE2F /* plaid-doh.app */,
+				A3418CDD24AD81E700B6FE2F /* plaid-dohTests.xctest */,
+				A3418CE824AD81E700B6FE2F /* plaid-dohUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3418CC924AD81E000B6FE2F /* plaid-doh */ = {
+			isa = PBXGroup;
+			children = (
+				A3418CCA24AD81E000B6FE2F /* AppDelegate.swift */,
+				A3418CCC24AD81E000B6FE2F /* SceneDelegate.swift */,
+				A3418CCE24AD81E000B6FE2F /* ContentView.swift */,
+				A3418CD024AD81E700B6FE2F /* Assets.xcassets */,
+				A3418CD524AD81E700B6FE2F /* LaunchScreen.storyboard */,
+				A3418CD824AD81E700B6FE2F /* Info.plist */,
+				A3418CD224AD81E700B6FE2F /* Preview Content */,
+			);
+			path = "plaid-doh";
+			sourceTree = "<group>";
+		};
+		A3418CD224AD81E700B6FE2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3418CD324AD81E700B6FE2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3418CE024AD81E700B6FE2F /* plaid-dohTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3418CE124AD81E700B6FE2F /* plaid_dohTests.swift */,
+				A3418CE324AD81E700B6FE2F /* Info.plist */,
+			);
+			path = "plaid-dohTests";
+			sourceTree = "<group>";
+		};
+		A3418CEB24AD81E700B6FE2F /* plaid-dohUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3418CEC24AD81E700B6FE2F /* plaid_dohUITests.swift */,
+				A3418CEE24AD81E700B6FE2F /* Info.plist */,
+			);
+			path = "plaid-dohUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3418CC624AD81E000B6FE2F /* plaid-doh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3418CF124AD81E700B6FE2F /* Build configuration list for PBXNativeTarget "plaid-doh" */;
+			buildPhases = (
+				A3418CC324AD81E000B6FE2F /* Sources */,
+				A3418CC424AD81E000B6FE2F /* Frameworks */,
+				A3418CC524AD81E000B6FE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "plaid-doh";
+			productName = "plaid-doh";
+			productReference = A3418CC724AD81E000B6FE2F /* plaid-doh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3418CDC24AD81E700B6FE2F /* plaid-dohTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3418CF424AD81E700B6FE2F /* Build configuration list for PBXNativeTarget "plaid-dohTests" */;
+			buildPhases = (
+				A3418CD924AD81E700B6FE2F /* Sources */,
+				A3418CDA24AD81E700B6FE2F /* Frameworks */,
+				A3418CDB24AD81E700B6FE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3418CDF24AD81E700B6FE2F /* PBXTargetDependency */,
+			);
+			name = "plaid-dohTests";
+			productName = "plaid-dohTests";
+			productReference = A3418CDD24AD81E700B6FE2F /* plaid-dohTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3418CE724AD81E700B6FE2F /* plaid-dohUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3418CF724AD81E700B6FE2F /* Build configuration list for PBXNativeTarget "plaid-dohUITests" */;
+			buildPhases = (
+				A3418CE424AD81E700B6FE2F /* Sources */,
+				A3418CE524AD81E700B6FE2F /* Frameworks */,
+				A3418CE624AD81E700B6FE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3418CEA24AD81E700B6FE2F /* PBXTargetDependency */,
+			);
+			name = "plaid-dohUITests";
+			productName = "plaid-dohUITests";
+			productReference = A3418CE824AD81E700B6FE2F /* plaid-dohUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3418CBF24AD81E000B6FE2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Constance Jacobson";
+				TargetAttributes = {
+					A3418CC624AD81E000B6FE2F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A3418CDC24AD81E700B6FE2F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A3418CC624AD81E000B6FE2F;
+					};
+					A3418CE724AD81E700B6FE2F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A3418CC624AD81E000B6FE2F;
+					};
+				};
+			};
+			buildConfigurationList = A3418CC224AD81E000B6FE2F /* Build configuration list for PBXProject "plaid-doh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3418CBE24AD81E000B6FE2F;
+			productRefGroup = A3418CC824AD81E000B6FE2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3418CC624AD81E000B6FE2F /* plaid-doh */,
+				A3418CDC24AD81E700B6FE2F /* plaid-dohTests */,
+				A3418CE724AD81E700B6FE2F /* plaid-dohUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3418CC524AD81E000B6FE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3418CD724AD81E700B6FE2F /* LaunchScreen.storyboard in Resources */,
+				A3418CD424AD81E700B6FE2F /* Preview Assets.xcassets in Resources */,
+				A3418CD124AD81E700B6FE2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3418CDB24AD81E700B6FE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3418CE624AD81E700B6FE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3418CC324AD81E000B6FE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3418CCB24AD81E000B6FE2F /* AppDelegate.swift in Sources */,
+				A3418CCD24AD81E000B6FE2F /* SceneDelegate.swift in Sources */,
+				A3418CCF24AD81E000B6FE2F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3418CD924AD81E700B6FE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3418CE224AD81E700B6FE2F /* plaid_dohTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3418CE424AD81E700B6FE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3418CED24AD81E700B6FE2F /* plaid_dohUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3418CDF24AD81E700B6FE2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3418CC624AD81E000B6FE2F /* plaid-doh */;
+			targetProxy = A3418CDE24AD81E700B6FE2F /* PBXContainerItemProxy */;
+		};
+		A3418CEA24AD81E700B6FE2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3418CC624AD81E000B6FE2F /* plaid-doh */;
+			targetProxy = A3418CE924AD81E700B6FE2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3418CD524AD81E700B6FE2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3418CD624AD81E700B6FE2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3418CEF24AD81E700B6FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3418CF024AD81E700B6FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3418CF224AD81E700B6FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"plaid-doh/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "plaid-doh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjacobson.plaid-doh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3418CF324AD81E700B6FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"plaid-doh/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "plaid-doh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjacobson.plaid-doh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3418CF524AD81E700B6FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
+				INFOPLIST_FILE = "plaid-dohTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjacobson.plaid-dohTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plaid-doh.app/plaid-doh";
+			};
+			name = Debug;
+		};
+		A3418CF624AD81E700B6FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
+				INFOPLIST_FILE = "plaid-dohTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjacobson.plaid-dohTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plaid-doh.app/plaid-doh";
+			};
+			name = Release;
+		};
+		A3418CF824AD81E700B6FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
+				INFOPLIST_FILE = "plaid-dohUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjacobson.plaid-dohUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "plaid-doh";
+			};
+			name = Debug;
+		};
+		A3418CF924AD81E700B6FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
+				INFOPLIST_FILE = "plaid-dohUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cjacobson.plaid-dohUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "plaid-doh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3418CC224AD81E000B6FE2F /* Build configuration list for PBXProject "plaid-doh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3418CEF24AD81E700B6FE2F /* Debug */,
+				A3418CF024AD81E700B6FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3418CF124AD81E700B6FE2F /* Build configuration list for PBXNativeTarget "plaid-doh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3418CF224AD81E700B6FE2F /* Debug */,
+				A3418CF324AD81E700B6FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3418CF424AD81E700B6FE2F /* Build configuration list for PBXNativeTarget "plaid-dohTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3418CF524AD81E700B6FE2F /* Debug */,
+				A3418CF624AD81E700B6FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3418CF724AD81E700B6FE2F /* Build configuration list for PBXNativeTarget "plaid-dohUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3418CF824AD81E700B6FE2F /* Debug */,
+				A3418CF924AD81E700B6FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3418CBF24AD81E000B6FE2F /* Project object */;
+}
