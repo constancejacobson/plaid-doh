@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32BFF7B24B1798000B3A374 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BFF7A24B1798000B3A374 /* Constants.swift */; };
+		A32BFF7D24B1803500B3A374 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BFF7C24B1803500B3A374 /* UserSettings.swift */; };
 		A3418CCB24AD81E000B6FE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CCA24AD81E000B6FE2F /* AppDelegate.swift */; };
 		A3418CCD24AD81E000B6FE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CCC24AD81E000B6FE2F /* SceneDelegate.swift */; };
 		A3418CCF24AD81E000B6FE2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CCE24AD81E000B6FE2F /* ContentView.swift */; };
@@ -15,6 +17,18 @@
 		A3418CD724AD81E700B6FE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3418CD524AD81E700B6FE2F /* LaunchScreen.storyboard */; };
 		A3418CE224AD81E700B6FE2F /* plaid_dohTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CE124AD81E700B6FE2F /* plaid_dohTests.swift */; };
 		A3418CED24AD81E700B6FE2F /* plaid_dohUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CEC24AD81E700B6FE2F /* plaid_dohUITests.swift */; };
+		A3418CFC24AD838000B6FE2F /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3418CFB24AD838000B6FE2F /* LinkKit.framework */; };
+		A3418CFD24AD838000B6FE2F /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3418CFB24AD838000B6FE2F /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3418D0024AD85FE00B6FE2F /* PlaidAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418CFF24AD85FE00B6FE2F /* PlaidAPI.swift */; };
+		A3418D0224AD8ED400B6FE2F /* LinkKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418D0124AD8ED400B6FE2F /* LinkKitView.swift */; };
+		A3418D0424AE8AA200B6FE2F /* PlkPlaidLinkPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3418D0324AE8AA200B6FE2F /* PlkPlaidLinkPicker.swift */; };
+		A3CC5F9224B6680500589321 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CC5F9124B6680500589321 /* PieChart.swift */; };
+		A3D49E5924B3918300F4DF8C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D49E5824B3918300F4DF8C /* Models.swift */; };
+		A3D49E5D24B3B79B00F4DF8C /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D49E5C24B3B79B00F4DF8C /* AccountDetails.swift */; };
+		A3D49E5F24B3B97900F4DF8C /* AccountList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D49E5E24B3B97900F4DF8C /* AccountList.swift */; };
+		A3D49E6124B4035000F4DF8C /* TransactionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D49E6024B4035000F4DF8C /* TransactionDetails.swift */; };
+		A3DEA9BB24B4FC0A0021F55F /* BudgetDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEA9BA24B4FC0A0021F55F /* BudgetDetails.swift */; };
+		A3DEA9BD24B50CD50021F55F /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEA9BC24B50CD50021F55F /* TransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +46,39 @@
 			remoteGlobalIDString = A3418CC624AD81E000B6FE2F;
 			remoteInfo = "plaid-doh";
 		};
+		A3CC5FC924B66B5700589321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CC5FC424B66B5700589321 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		A3CC5FCB24B66B5700589321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CC5FC424B66B5700589321 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A3418CFE24AD838000B6FE2F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3418CFD24AD838000B6FE2F /* LinkKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A32BFF7A24B1798000B3A374 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A32BFF7C24B1803500B3A374 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		A3418CC724AD81E000B6FE2F /* plaid-doh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plaid-doh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3418CCA24AD81E000B6FE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3418CCC24AD81E000B6FE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +93,18 @@
 		A3418CE824AD81E700B6FE2F /* plaid-dohUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "plaid-dohUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3418CEC24AD81E700B6FE2F /* plaid_dohUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plaid_dohUITests.swift; sourceTree = "<group>"; };
 		A3418CEE24AD81E700B6FE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3418CFB24AD838000B6FE2F /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = "plaid-doh/LinkKit.framework"; sourceTree = "<group>"; };
+		A3418CFF24AD85FE00B6FE2F /* PlaidAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAPI.swift; sourceTree = "<group>"; };
+		A3418D0124AD8ED400B6FE2F /* LinkKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkKitView.swift; sourceTree = "<group>"; };
+		A3418D0324AE8AA200B6FE2F /* PlkPlaidLinkPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlkPlaidLinkPicker.swift; sourceTree = "<group>"; };
+		A3CC5F9124B6680500589321 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		A3CC5FC424B66B5700589321 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../.Trash/Charts.xcodeproj; sourceTree = "<group>"; };
+		A3D49E5824B3918300F4DF8C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A3D49E5C24B3B79B00F4DF8C /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
+		A3D49E5E24B3B97900F4DF8C /* AccountList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountList.swift; sourceTree = "<group>"; };
+		A3D49E6024B4035000F4DF8C /* TransactionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetails.swift; sourceTree = "<group>"; };
+		A3DEA9BA24B4FC0A0021F55F /* BudgetDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetails.swift; sourceTree = "<group>"; };
+		A3DEA9BC24B50CD50021F55F /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3418CFC24AD838000B6FE2F /* LinkKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +140,7 @@
 				A3418CE024AD81E700B6FE2F /* plaid-dohTests */,
 				A3418CEB24AD81E700B6FE2F /* plaid-dohUITests */,
 				A3418CC824AD81E000B6FE2F /* Products */,
+				A3418CFA24AD838000B6FE2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +164,18 @@
 				A3418CD524AD81E700B6FE2F /* LaunchScreen.storyboard */,
 				A3418CD824AD81E700B6FE2F /* Info.plist */,
 				A3418CD224AD81E700B6FE2F /* Preview Content */,
+				A3418CFF24AD85FE00B6FE2F /* PlaidAPI.swift */,
+				A3418D0124AD8ED400B6FE2F /* LinkKitView.swift */,
+				A3418D0324AE8AA200B6FE2F /* PlkPlaidLinkPicker.swift */,
+				A32BFF7A24B1798000B3A374 /* Constants.swift */,
+				A32BFF7C24B1803500B3A374 /* UserSettings.swift */,
+				A3D49E5824B3918300F4DF8C /* Models.swift */,
+				A3D49E5C24B3B79B00F4DF8C /* AccountDetails.swift */,
+				A3D49E5E24B3B97900F4DF8C /* AccountList.swift */,
+				A3D49E6024B4035000F4DF8C /* TransactionDetails.swift */,
+				A3DEA9BA24B4FC0A0021F55F /* BudgetDetails.swift */,
+				A3DEA9BC24B50CD50021F55F /* TransactionList.swift */,
+				A3CC5F9124B6680500589321 /* PieChart.swift */,
 			);
 			path = "plaid-doh";
 			sourceTree = "<group>";
@@ -136,6 +206,24 @@
 			path = "plaid-dohUITests";
 			sourceTree = "<group>";
 		};
+		A3418CFA24AD838000B6FE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3CC5FC424B66B5700589321 /* Charts.xcodeproj */,
+				A3418CFB24AD838000B6FE2F /* LinkKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3CC5FC524B66B5700589321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CC5FCA24B66B5700589321 /* Charts.framework */,
+				A3CC5FCC24B66B5700589321 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +234,7 @@
 				A3418CC324AD81E000B6FE2F /* Sources */,
 				A3418CC424AD81E000B6FE2F /* Frameworks */,
 				A3418CC524AD81E000B6FE2F /* Resources */,
+				A3418CFE24AD838000B6FE2F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +315,12 @@
 			mainGroup = A3418CBE24AD81E000B6FE2F;
 			productRefGroup = A3418CC824AD81E000B6FE2F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A3CC5FC524B66B5700589321 /* Products */;
+					ProjectRef = A3CC5FC424B66B5700589321 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A3418CC624AD81E000B6FE2F /* plaid-doh */,
@@ -234,6 +329,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A3CC5FCA24B66B5700589321 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A3CC5FC924B66B5700589321 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3CC5FCC24B66B5700589321 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = A3CC5FCB24B66B5700589321 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A3418CC524AD81E000B6FE2F /* Resources */ = {
@@ -268,7 +380,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3418CCB24AD81E000B6FE2F /* AppDelegate.swift in Sources */,
+				A3418D0024AD85FE00B6FE2F /* PlaidAPI.swift in Sources */,
+				A3418D0424AE8AA200B6FE2F /* PlkPlaidLinkPicker.swift in Sources */,
+				A3D49E6124B4035000F4DF8C /* TransactionDetails.swift in Sources */,
 				A3418CCD24AD81E000B6FE2F /* SceneDelegate.swift in Sources */,
+				A32BFF7B24B1798000B3A374 /* Constants.swift in Sources */,
+				A3D49E5F24B3B97900F4DF8C /* AccountList.swift in Sources */,
+				A32BFF7D24B1803500B3A374 /* UserSettings.swift in Sources */,
+				A3D49E5D24B3B79B00F4DF8C /* AccountDetails.swift in Sources */,
+				A3CC5F9224B6680500589321 /* PieChart.swift in Sources */,
+				A3D49E5924B3918300F4DF8C /* Models.swift in Sources */,
+				A3DEA9BD24B50CD50021F55F /* TransactionList.swift in Sources */,
+				A3418D0224AD8ED400B6FE2F /* LinkKitView.swift in Sources */,
+				A3DEA9BB24B4FC0A0021F55F /* BudgetDetails.swift in Sources */,
 				A3418CCF24AD81E000B6FE2F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +562,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"plaid-doh/Preview Content\"";
 				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/plaid-doh",
+				);
 				INFOPLIST_FILE = "plaid-doh/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +586,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"plaid-doh/Preview Content\"";
 				DEVELOPMENT_TEAM = 2WW7SP7ZB7;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/plaid-doh",
+				);
 				INFOPLIST_FILE = "plaid-doh/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var settings: UserSettings
+    @State var accessToken = ""
+    @State var accountBalance: AccountBalance? = nil
+    
     var body: some View {
-        Text("Hello, World!")
+        if(self.accessToken != "" && self.accountBalance == nil) {
+            getAccountBalance(accessToken: self.accessToken, secret: Constants.SECRET, clientId: Constants.CLIENT_ID) { (accountBalance) in
+                self.accountBalance = accountBalance
+            }
+        }
+        return VStack {
+            if (self.accountBalance != nil) {
+                AccountList(accessToken: accessToken, accountBalance: self.accountBalance)
+            } else {
+                Text("Hey bitch")
+                LinkKitView(accessToken: $accessToken, publicKey: Constants.PUBLIC_KEY)
+            }
+        }.onAppear {
+            self.accessToken = UserDefaults.standard.string(forKey: "plaid-access-token") ?? ""
+        }
     }
 }
 
